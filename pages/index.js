@@ -143,7 +143,7 @@ export default function Home() {
             </div>
           </form>
         </div>
-        <div class="flex items-center border border-teal-500 rounded-md py-5 px-5 mt-5">
+        {/* <div class="flex items-center border border-teal-500 rounded-md py-5 px-5 mt-5">
           <form name="contact2" method="POST" data-netlify="true">
             <p>
               <label>
@@ -173,7 +173,7 @@ export default function Home() {
               <button type="submit">Send</button>
             </p>
           </form>
-        </div>
+        </div> */}
       </main>
 
       <Footer />
