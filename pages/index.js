@@ -13,7 +13,12 @@ export default function Home() {
       <main>
         <Header title="Contact Form" />
         <div class="flex items-center border border-teal-500 rounded-md py-5 px-5 mt-5">
-          <form class="w-full max-w-lg" name="contact" method="POST">
+          <form
+            class="w-full max-w-lg"
+            name="contact"
+            method="POST"
+            onSubmit="submit"
+          >
             <div class="flex flex-wrap -mx-3 mb-6">
               <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
                 <label
@@ -125,7 +130,7 @@ export default function Home() {
             <div class="flex flex-wrap justify-center -mx-3 mb-6 pt-5">
               <button
                 class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-2 px-6 rounded"
-                type="button"
+                type="submit"
               >
                 Submit
               </button>
