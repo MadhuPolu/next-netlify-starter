@@ -17,7 +17,6 @@ export default function Home() {
             class="w-full max-w-lg"
             name="contact"
             method="POST"
-            onSubmit="submit"
             data-netlify="true"
           >
             <div class="flex flex-wrap -mx-3 mb-6">
