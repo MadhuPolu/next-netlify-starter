@@ -31,6 +31,7 @@ export default function Home() {
                 <input
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                   id="first-name"
+                  name="firstname"
                   type="text"
                   placeholder="Jane"
                 />
@@ -48,6 +49,7 @@ export default function Home() {
                 <input
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="last-name"
+                  name="lastname"
                   type="text"
                   placeholder="Doe"
                 />
@@ -57,7 +59,7 @@ export default function Home() {
               <div class="w-full px-3">
                 <label
                   class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                  for="password"
+                  for="email"
                 >
                   Email
                 </label>
@@ -65,6 +67,7 @@ export default function Home() {
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="email"
                   type="email"
+                  name="email"
                 />
                 <p class="text-gray-600 text-xs italic">
                   Make it as long and as crazy as you'd like
@@ -82,6 +85,7 @@ export default function Home() {
                 <input
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="city"
+                  name="city"
                   type="text"
                   placeholder="Albuquerque"
                 />
@@ -97,6 +101,7 @@ export default function Home() {
                   <select
                     class="block appearance-none w-full bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                     id="state"
+                    name="state"
                   >
                     <option>New Mexico</option>
                     <option>Missouri</option>
@@ -123,6 +128,7 @@ export default function Home() {
                 <input
                   class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                   id="zip"
+                  name="zip"
                   type="text"
                   placeholder="90210"
                 />
